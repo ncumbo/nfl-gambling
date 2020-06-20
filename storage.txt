@@ -1,0 +1,349 @@
+team_trends1
+#spread
+# diff = int(team_score) - int(opponent_score)
+# if diff > -float(spread): #over
+#     team[3] += 1
+#
+# elif diff < -float(spread):   #under
+#     team[4] += 1
+#
+# elif diff == -float(spread):
+#     team[5] += 1
+
+advanced_team_trends
+#SU Home/Away Win/Loss
+# if home_v_away == "Home":
+#     if int(team_score) > int(opponent_score):
+#         team[1] +=1 #SU home win
+#     else:
+#         team[2] +=1 #SU home loss
+#
+# else:
+#     if int(team_score) > int(opponent_score):
+#         team[3] +=1 #SU away win
+#     else:
+#         team[4] +=1 #SU away loss
+
+#Spread Home/Away Win/Loss
+# if home_v_away == "Home":
+#     diff = int(team_score) - int(opponent_score)
+#     if diff > -float(spread): #over
+#         team[5] += 1
+#
+#     elif diff < -float(spread):   #under
+#         team[6] += 1
+#
+# else:
+#     diff = int(team_score) - int(opponent_score)
+#     if diff > -float(spread):  # over
+#         team[7] += 1
+#
+#     elif diff < -float(spread):  # under
+#         team[8] += 1
+
+#O/U Home/Away Win/Loss
+# diff = int(team_score) + int(opponent_score)
+# if home_v_away == "Home":
+#     if diff > float(ou): #over
+#         team[9] += 1
+#
+#     else:   #under
+#         team[10] += 1
+#
+# else:
+#     if diff > float(ou): #over
+#         team[11] += 1
+#     else:
+#         team[12] += 1
+
+team_profit
+#ML Profit
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/abs(int(ml))), 2)
+# else:       #positive/dog
+#     money_won = round(100 * (int(ml)/100), 2)
+#
+# money_lost = -100 #$10
+# if int(team_score) > int(opponent_score):
+#     team[1] += money_won
+# else:
+#     team[1] += money_lost
+#
+# team[1] = round(team[1],2)
+
+#Spread Profit
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/110), 2)
+# else:       #positive/dog
+#     money_won = round(100 * (100/110), 2)
+#
+# money_lost = -100
+# diff = int(team_score) - int(opponent_score)
+# if diff > -float(spread):
+#     team[2] += money_won
+#
+# elif diff < -float(spread):
+#     team[2] += money_lost
+#
+# team[2] = round(team[2],2)
+
+#O/U Profit
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/110), 2)
+# else:       #positive/dog
+#     money_won = round(100 * (100/110), 2)
+#
+# money_lost = -100
+# diff = int(team_score) + int(opponent_score)
+# if diff > float(ou): #over
+#     team[3] += money_won
+#     team[4] += money_lost
+#
+# else:   #under
+#     team[3] += money_lost
+#     team[4] += money_won
+#
+# team[3] = round(team[3],2)
+# team[4] = round(team[4],2)
+
+#ML Profit Fav/Dogs
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/abs(int(ml))), 2)
+#     money_lost = -100
+#     if int(team_score) > int(opponent_score):
+#         team[5] += money_won
+#     else:
+#         team[5] += money_lost
+#
+# else:       #positive/dog
+#     money_won = round(100 * (int(ml)/100), 2)
+#     money_lost = -100
+#     if int(team_score) > int(opponent_score):
+#         team[6] += money_won
+#     else:
+#         team[6] += money_lost
+#
+# team[5] = round(team[5], 2)
+# team[6] = round(team[6], 2)
+
+#Spread Profit Fav/Dogs
+# if float(spread) < 0:  #negative/favorite
+#     money_won = round(100 * (100/110), 2)
+#     money_lost = -100
+#     diff = int(team_score) - int(opponent_score)
+#     if diff > -float(spread):
+#         team[7] += money_won
+#
+#     elif diff < -float(spread):
+#         team[7] += money_lost
+#
+#
+# else:       #positive/dog
+#     money_won = round(100 * (100/110), 2)
+#     money_lost = -100
+#     diff = int(team_score) - int(opponent_score)
+#     if diff > -float(spread):
+#         team[8] += money_won
+#
+#     elif diff < -float(spread):
+#         team[8] += money_lost
+#
+# team[7] = round(team[7], 2)
+# team[8] = round(team[8], 2)
+
+#ML Profit After W/L
+# if int(row[3]) == 1:
+#     team[1] = "None"
+#
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/abs(int(ml))), 2)
+# else:       #positive/dog
+#     money_won = round(100 * (int(ml)/100), 2)
+#
+# money_lost = -100 #$10
+# if team[1] == "W":
+#     if int(team_score) > int(opponent_score):
+#         team[9] += money_won
+#     else:
+#         team[9] += money_lost
+#
+# elif team[1] == "L":
+#     if int(team_score) > int(opponent_score):
+#         team[10] += money_won
+#     else:
+#         team[10] += money_lost
+#
+# if int(team_score) > int(opponent_score):
+#     team[1] = "W"
+# else:
+#     team[1] = "L"
+#
+# team[9] = round(team[9], 2)
+# team[10] = round(team[10], 2)
+
+#Spread Profit After W/L
+# if int(row[3]) == 1:
+#     team[1] = "None"
+#
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/110), 2)
+# else:       #positive/dog
+#     money_won = round(100 * (100/110), 2)
+# money_lost = -100 #$10
+#
+# if team[1] == "W":
+#     diff = int(team_score) - int(opponent_score)
+#     if diff > -float(spread):
+#         team[11] += money_won
+#
+#     elif diff < -float(spread):
+#         team[11] += money_lost
+#
+#
+# elif team[1] == "L":
+#     diff = int(team_score) - int(opponent_score)
+#     if diff > -float(spread):
+#         team[12] += money_won
+#
+#     elif diff < -float(spread):
+#         team[12] += money_lost
+#
+# if int(team_score) > int(opponent_score):
+#     team[1] = "W"
+# else:
+#     team[1] = "L"
+#
+# team[11] = round(team[11], 2)
+# team[12] = round(team[12], 2)
+
+#O/U After W/L
+# if int(row[3]) == 1:
+#     team[1] = "None"
+#
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/110), 2)
+# else:       #positive/dog
+#     money_won = round(100 * (100/110), 2)
+# money_lost = -100 #$10
+#
+# if team[1] == "W":
+#     diff = int(team_score) + int(opponent_score)
+#     if diff > float(ou): #over
+#         team[13] += money_won
+#         team[15] += money_lost
+#
+#     else:   #under
+#         team[13] += money_lost
+#         team[15] += money_won
+#
+#
+# elif team[1] == "L":
+#     diff = int(team_score) + int(opponent_score)
+#     if diff > float(ou): #over
+#         team[14] += money_won
+#         team[16] += money_lost
+#
+#     else:   #under
+#         team[14] += money_lost
+#         team[16] += money_won
+#
+# if int(team_score) > int(opponent_score):
+#     team[1] = "W"
+# else:
+#     team[1] = "L"
+#
+# team[13] = round(team[13], 2)
+# team[14] = round(team[14], 2)
+# team[15] = round(team[15], 2)
+# team[16] = round(team[16], 2)
+
+#ML Home/Away Profit
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/abs(int(ml))), 2)
+# else:       #positive/dog
+#     money_won = round(100 * (100/110), 2)
+# money_lost = -100 #$10
+#
+# if home_v_away == "Home":
+#     if int(team_score) > int(opponent_score):
+#         team[17] += money_won
+#     else:
+#         team[17] += money_lost
+#
+# else:
+#     if int(team_score) > int(opponent_score):
+#         team[18] += money_won
+#     else:
+#         team[18] += money_lost
+#
+# team[17] = round(team[17], 2)
+# team[18] = round(team[18], 2)
+
+#O/U Home/Away Profit
+# if int(ml) < 0:  #negative/favorite
+#     money_won = round(100 * (100/110), 2)
+# else:       #positive/dog
+#     money_won = round(100 * (100/110), 2)
+# money_lost = -100 #$10
+#
+# if home_v_away == "Home":
+#     diff = int(team_score) + int(opponent_score)
+#     if diff > float(ou): #over
+#         team[19] += money_won
+#         team[21] += money_lost
+#
+#     else:   #under
+#         team[19] += money_lost
+#         team[21] += money_won
+#
+# else:
+#     diff = int(team_score) + int(opponent_score)
+#     if diff > float(ou):  # over
+#         team[20] += money_won
+#         team[22] += money_lost
+#
+#     else:  # under
+#         team[20] += money_lost
+#         team[22] += money_won
+#
+# team[19] = round(team[19], 2)
+# team[20] = round(team[20], 2)
+# team[21] = round(team[21], 2)
+# team[22] = round(team[22], 2)
+
+#Spread Home/Away Profit
+# if team[0] == teamname:
+#     if int(ml) < 0:  #negative/favorite
+#         money_won = round(100 * (100/110), 2)
+#     else:       #positive/dog
+#         money_won = round(100 * (100/110), 2)
+#     money_lost = -100 #$10
+#
+#     if home_v_away == "Home":
+#         diff = int(team_score) - int(opponent_score)
+#         if diff > -float(spread):
+#             team[23] += money_won
+#
+#         elif diff < -float(spread):
+#             team[23] += money_lost
+#
+#     else:
+#         diff = int(team_score) - int(opponent_score)
+#         if diff > -float(spread):
+#             team[24] += money_won
+#
+#         elif diff < -float(spread):
+#             team[24] += money_lost
+#
+#
+#     team[23] = round(team[23], 2)
+#     team[24] = round(team[24], 2)
+
+
+
+
+
+
+
+
+
