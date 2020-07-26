@@ -1,0 +1,128 @@
+1594774153294	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiler8jH5a"
+1594774159869	Marionette	INFO	Listening on port 46673
+1594774159932	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f80014b4940 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f80014b4940 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8024913800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8024913800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8024912800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8024912800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f801e34c390 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8014ec9c00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8014ec9c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f801502a980 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8005242000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8005242000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f80019f2120 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ffeb6c800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+JavaScript error: https://players.brightcove.net/3948005062001/zRtuFJOcV_default/index.min.js, line 1: TypeError: this.el_ is null
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7ff6db4fc0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff745f000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7ff6db4ef0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff305ec00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594774309461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNFVlmh"
+Exiting due to channel error.
+Exiting due to channel error.
+1594774319338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRRNzdT"
+1594774326107	Marionette	INFO	Listening on port 41207
+1594774326163	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21db7f9390 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21db7f9390 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21e0ac1000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21e0ac1000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21f8de5800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21f8de5800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21e31c03d0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21d7087400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21d7087400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21dc2fdae0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21ddae4800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21ddae4800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21e31b1640 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21f86e8400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+JavaScript error: https://players.brightcove.net/3948005062001/zRtuFJOcV_default/index.min.js, line 1: TypeError: this.el_ is null
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21d754afc0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21daced000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21daced000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21d3d7b8b0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21d3dcdc00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7ff6db5b20 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f8000cb0400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21e0dca120 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21da343400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7ff6db58b0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff1d78400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 558"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:558:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 558, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 558: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 558"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:558:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 558, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 558: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 558"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:558:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 558, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 558: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21d09996d0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21d09d3800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #1] WARNING: 7f21d0999460 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #1] WARNING: Decoder=7f21d3886c00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f80000566d0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff6338000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f8000056600 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff1d6e000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21c97cc7a0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21d0067800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21c97cc600 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21c8ee9c00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7ff32f13d0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff633f400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7ff32f1230 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff3059400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21cb1fe160 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21d006c800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7feebfe8b0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff4c20400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7feebfe710 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff305d800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21cb1fdfc0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21c8d75c00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21d099a7e0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21d009fc00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21d0999e20 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21c8d75000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7ff18cebf0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff46d1400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 10271, MediaDecoderStateMachine #1] WARNING: 7f7ff226fbf0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 10271, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ff1d6f000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+1594775405664	Marionette	INFO	Stopped listening on port 46673
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21d23a1ae0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21d00b1800 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21d23a2090 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21c8d75400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21d3c03a50 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21d094e400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21d7137230 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21c8d77c00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21d413dcc0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21d0a96c00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21d413d980 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21c8d77400 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21c97bfd90 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21d0fc7000 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21c97bf8b0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21c8d78c00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 11194, MediaDecoderStateMachine #2] WARNING: 7f21c8fa48b0 OpenCubeb() failed to init cubeb: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/AudioStream.cpp, line 331
+[Child 11194, MediaDecoderStateMachine #2] WARNING: Decoder=7f21d1459c00 [OnMediaSinkAudioError]: file /build/firefox-k3d8Rk/firefox-78.0.2+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594776159450	Marionette	INFO	Stopped listening on port 41207
