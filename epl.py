@@ -14,7 +14,7 @@ def past_5_games_all():
 
     page = requests.get("http://www.espn.com/soccer/scoreboard")
     content = BeautifulSoup(page.content, "html.parser")
-    print(content.prettify())
+    print(content)
 
     #go to day before
     #yesterday_button = driver.find_element_by_class_name("slick-prev slick-arrow")
