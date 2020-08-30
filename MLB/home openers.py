@@ -12,7 +12,7 @@ def basic():
                        'h_under': 0, 'v_over': 0, 'v_under': 0, 'ou_tie': 0, 'over_profit': 0, 'under_profit': 0,
                        'h_over_profit': 0, 'h_under_profit': 0, 'v_over_profit': 0, 'v_under_profit': 0})
 
-    for file in glob.glob("MLB Archives/*.csv"):
+    for file in glob.glob("MLB/MLB Archives/*.csv"):
         data = pd.read_csv(file, delimiter=',')
         data = data.drop_duplicates(subset="Team")
 
@@ -155,7 +155,7 @@ def yearly():
     for yr in years:
         yearly.append({'year':yr,'fav_won':0,'dog_won':0,'over':0,'under':0, 'ou_ties':0})
 
-    for file in glob.glob("MLB Archives/*.csv"):
+    for file in glob.glob("MLB/MLB Archives/*.csv"):
         file_year = file.split(' ')[3].split('.')[0]
         data = pd.read_csv(file, delimiter=',')
         data = data.drop_duplicates(subset="Team")

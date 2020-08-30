@@ -69,15 +69,6 @@ team_profit
 # else:
 #     team[1] += money_lost
 #
-# team[1] = round(team[1],2)
-
-#Spread Profit
-# if int(ml) < 0:  #negative/favorite
-#     money_won = round(100 * (100/110), 2)
-# else:       #positive/dog
-#     money_won = round(100 * (100/110), 2)
-#
-# money_lost = -100
 # diff = int(team_score) - int(opponent_score)
 # if diff > -float(spread):
 #     team[2] += money_won
