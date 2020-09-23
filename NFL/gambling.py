@@ -129,7 +129,7 @@ def main():
     return 0
 
 def read_game_by_game(team_arr):
-    with open("NFL Archives/2019-NFL-Stats.csv", 'r') as file:
+    with open("2019-NFL-Stats.csv", 'r') as file:
 
         matchup = []
 
